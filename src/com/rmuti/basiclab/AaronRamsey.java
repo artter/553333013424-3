@@ -6,6 +6,7 @@ public class AaronRamsey {
 	public String friend[];
 	
 	public AaronRamsey(){
+		System.out.print("Aaron Ramsey");
 		name = "Aaron Ramsey";
 		position = "Center";
 		friend = new String[] {"Bacary Sagna","Per Mertesacker","Thomas Vermaelen"}; 
