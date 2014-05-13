@@ -2,7 +2,7 @@ package com.rumti.basiclab2;
 
 import java.util.Arrays;
 
-public class ArrayListjava {
+public class ArryListjava {
 	private Object[] elementData = new Object[1];
 	private int size = 0;
 	
@@ -25,10 +25,10 @@ public class ArrayListjava {
 		return elementData;
 	}
 	public static void main(String[] args) {
-		ArrayListjava al = new ArrayListjava();
+		ArryListjava al = new ArryListjava();
 		al.add("1");
 		al.add("2");
-		Arrays.toString(al);
+		System.out.println(al);
 	}
 
 }
